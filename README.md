@@ -15,16 +15,13 @@ Installation:
 ```
 go get github.com/HosseinRouhi79/log-pkg
 ```
-Use code with caution.
 ***Usage***
 
 Import the package:
 ```
-Go
 import (
   "github.com/HosseinRouhi79/log-pkg"
 )
-Use code with caution.
 Define the logging configuration:
 Go
 func main() {
@@ -37,7 +34,6 @@ func main() {
   logger.Infof("Starting-%s", "test")
 }
 ```
-Use code with caution.
 Default Logger:
 
 By default, log-pkg uses zap as the logging backend.
