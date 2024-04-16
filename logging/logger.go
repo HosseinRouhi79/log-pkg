@@ -1,6 +1,8 @@
 package logging
 
-import "log-pkg/config"
+import "github.com/HosseinRouhi79/log-pkg/config"
+
+
 
 type Logger interface {
 	Init()

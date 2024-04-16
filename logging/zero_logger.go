@@ -6,8 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"log-pkg/config"
-
+	"github.com/HosseinRouhi79/log-pkg/config"
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/pkgerrors"

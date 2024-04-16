@@ -5,8 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"log-pkg/config"
-
+	"github.com/HosseinRouhi79/log-pkg/config"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
@@ -61,7 +60,7 @@ func (z *zapLogger) Init() {
 	})
 
 	z.logger = zapFinLogger
-	
+
 }
 
 func newZapLogger(cfg *config.LoggerConfig) *zapLogger {
