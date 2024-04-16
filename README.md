@@ -1,19 +1,22 @@
 
 ***log-pkg***:
+
 A Flexible Logging Interface for Go
 log-pkg provides a unified interface for interacting with various logging packages in Go, such as zap and zerolog. This simplifies the process of switching between logging backends while maintaining consistent logging behavior in your application.
 
-Features:
+***Features:***
 
 Flexible logging backend selection: Choose the logging package that best suits your needs (e.g., zap for structured logging, zerolog for performance) by specifying it in the configuration.
 Consistent logging API: Use the same logging.NewLogger function and logging methods (e.g., Infof, Errorf) regardless of the underlying logging backend.
 Reduced boilerplate code: Focus on your application logic without worrying about the intricate details of different logging packages.
 Installation:
 
-Bash
+***Bash***
+```
 go get github.com/HosseinRouhi79/log-pkg
+```
 Use code with caution.
-Usage:
+***Usage***
 
 Import the package:
 ```
