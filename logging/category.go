@@ -49,7 +49,7 @@ const (
 
 	//GRPC
 	GRPC_CLient SubCategory = "GRPC_CLient"
-	GRPC_Server SubCategory = "GRPC_Server"
+	GRPC_Server SubCategory = "GRPC_Server "
 )
 
 const (
