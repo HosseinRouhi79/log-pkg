@@ -10,9 +10,12 @@ const (
 	Internal        Category = "Internal"
 	Postgres        Category = "Postgres"
 	Redis           Category = "Redis"
+	Mysql           Category = "Mysql"
+	Kafka           Category = "Kafka"
 	Validation      Category = "Validation"
 	RequestResponse Category = "RequestResponse"
 	Prometheus      Category = "Prometheus"
+	GRPC      Category = "GRPC"
 )
 
 const (
@@ -39,6 +42,14 @@ const (
 
 	// IO
 	RemoveFile SubCategory = "RemoveFile"
+
+	//Kafka
+	SendToBroker SubCategory = "SendToBroker"
+	GetFromBroker SubCategory = "GetFromBroker"
+
+	//GRPC
+	GRPC_CLient SubCategory = "GRPC_CLient"
+	GRPC_Server SubCategory = "GRPC_Server"
 )
 
 const (
